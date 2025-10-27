@@ -24,8 +24,7 @@ namespace lab5_part_1
             }
             catch (DivideByZeroException ex)
             {
-                Console.WriteLine($"{ex.Message}");
-                Console.WriteLine("Cannot be divided by 0");
+                Console.WriteLine("Cannot divide by 0");
             }
             catch (FormatException ex)
             {
